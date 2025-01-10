@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+      rock paper sissor
+    </title>
+    <link rel="stylesheet" href="style/rock-paper-sissor.css" >
+  </head>
+  <body>
+    <P class=heading>Rock Paper Sissor</P>
+    <div class="div1">
+      <button  onclick="result('rock')"><img   src="images/rock-emoji.png" alt="rock"       class="iconlogo"> </button>
+      <button  onclick="result('paper')"><img  src="images/paper-emoji.png" alt="paper"     class="iconlogo"> </button>
+      <button  onclick="result('sissor')"><img src="images/sissor-emoji.png" alt="sissor" class="iconlogo"></button>
+    </div>
+    <center>
+      <p class="livegame"></p>
+    </center >
+    <center>
+      <p class="result" style="padding-top: 30px;"></p>
+    </center >
+    <center><p class = "scorebord scorebordCSS"></p></center >
+    <center>
+      <button class="reset" onclick="resetgame()">
+      reset
+      </button>
+    </center>
+
+
+    <script src="scripts/rock-paper-sissor.js"> </script> 
+  </body>
+</html>
+
+
